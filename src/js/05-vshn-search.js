@@ -104,7 +104,7 @@
     xmlhttp.send()
   }
 
-  var main = document.querySelector('.main')
+  var main = document.querySelector('main')
   var mainDoc = document.querySelector('.doc')
   var searchInput = document.querySelector('#search-input')
   var website = window.location.protocol + '//' + window.location.host
