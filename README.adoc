@@ -1,0 +1,15 @@
+= Project Syn Antora Default UI
+
+This project contains the default UI used by the https://docs.syn.tools/syn/index.html[Project Syn Antora] documentation website. It is based on the https://gitlab.com/antora/antora-ui-default[standard antora-ui-default project].
+
+== Install
+
+After cloning this project, run the `npm install` command to download all dependencies.
+
+== Preview
+
+Use the `gulp preview` command to launch a quick build with your latest modifications.
+
+== Release
+
+Use the `gulp build; gulp bundle:pack` command to create a `build/ui-bundle.zip` file ready to be used by Antora websites.
