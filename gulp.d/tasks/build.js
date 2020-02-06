@@ -83,6 +83,7 @@ module.exports = (src, dest, preview) => () => {
       ),
     vfs.src('helpers/*.js', opts),
     vfs.src('layouts/*.hbs', opts),
-    vfs.src('partials/*.hbs', opts)
+    vfs.src('partials/*.hbs', opts),
+    vfs.src('manifests/*.*', opts)
   ).pipe(vfs.dest(dest, { sourcemaps: sourcemaps && '.' }))
 }
