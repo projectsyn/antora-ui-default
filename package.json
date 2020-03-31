@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://gitlab.com/antora/antora-ui-default.git"
   },
+  "scripts": {
+    "pack": "gulp bundle"
+  },
   "engines": {
     "node": ">= 8.0.0"
   },

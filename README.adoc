@@ -12,4 +12,4 @@ Use the `gulp preview` command to launch a quick build with your latest modifica
 
 == Release
 
-Use the `gulp build; gulp bundle:pack` command to create a `build/ui-bundle.zip` file ready to be used by Antora websites.
+Use the `npm run pack` command to create a `build/ui-bundle.zip` file ready to be used by Antora websites.
