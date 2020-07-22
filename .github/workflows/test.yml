@@ -5,6 +5,17 @@ on:
     - master
 
 jobs:
+  linting:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        command:
+          - lint_yaml
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run ${{ matrix.command }}
+        run: make ${{ matrix.command }}
+
   test:
     runs-on: ubuntu-latest
     steps:
