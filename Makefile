@@ -8,7 +8,7 @@ SHELL := bash
 DOCKER_CMD   ?= docker
 DOCKER_ARGS  ?= run --rm --user "$$(id -u)" -v "$${PWD}:/component" --workdir /component
 
-YAML_FILES      ?= $(shell find . -type f -name '*.yaml' -or -name '*.yml')
+YAML_FILES      ?= $(shell find . -type f -name '*.yaml' -or -name '*.yml' -not -name '.gitlab-ci.yml')
 YAMLLINT_ARGS   ?= --no-warnings
 YAMLLINT_CONFIG ?= .yamllint.yml
 YAMLLINT_IMAGE  ?= docker.io/cytopia/yamllint:latest

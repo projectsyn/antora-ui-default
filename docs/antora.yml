@@ -2,4 +2,4 @@ name: antora-ui-default
 title: Antora Default UI
 version: master
 nav:
-- modules/ROOT/nav.adoc
+  - modules/ROOT/nav.adoc
