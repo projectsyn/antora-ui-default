@@ -2,9 +2,8 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <div class="navbar-item">
-        <div class="vshn_logo"></div>
-        <a href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}
-         {{#unless (eq page.componentVersion.displayVersion "master")}} – v{{page.componentVersion.displayVersion}}{{/unless}}</a>
+        <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}"><span class="syn_logo"></span></a>
+        <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
       </div>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
@@ -14,10 +13,36 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <div class="navbar-item">
-            <input id="search-input" type="text" placeholder="Search">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Tools</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/commodore/">Commodore</a>
+            <a class="navbar-item" target="_blank" href="https://github.com/topics/commodore-component">Commodore Components</a>
+            <a class="navbar-item" target="_blank" href="https://k8up.io/" target="_blank">K8up</a>
+            <a class="navbar-item" href="/lieutenant-api/">Lieutenant API</a>
+            <a class="navbar-item" href="/lieutenant-operator/">Lieutenant Operator</a>
+            <a class="navbar-item" href="/steward/">Steward</a>
+          </div>
         </div>
-        <a class="navbar-item" href="https://vshn.ch/">VSHN Home Page</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">
+            <div class="vshn_logo"></div>
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://vshn.ch/en/" target="_blank">VSHN</a>
+            <a class="navbar-item" href="https://appuio.ch/" target="_blank">APPUiO</a>
+            <a class="navbar-item" href="https://twitter.com/vshn_ch" target="_blank"><i
+                class="fa fa-twitter"></i>&nbsp; Twitter</a>
+            <a class="navbar-item" href="https://kb.vshn.ch/" target="_blank">Knowledge Base</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <input id="search-input" type="text" placeholder="Search">
+        </div>
+        <div class="navbar-item">
+          <a class="navbar-item" href="https://github.com/projectsyn/" target="_blank"><i class="fa fa-github"></i>&nbsp;
+            GitHub</a>
+        </div>
       </div>
     </div>
   </nav>

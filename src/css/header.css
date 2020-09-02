@@ -278,9 +278,16 @@ body {
   white-space: nowrap;
 }
 
+.syn_logo {
+  background: transparent url(../img/syn-logo-transp-bg.png) no-repeat center;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
 .vshn_logo {
   background: transparent url(../img/vshn.svg) no-repeat center;
   background-size: contain;
-  width: 80px;
-  height: 40px;
+  width: 50px;
+  height: 20px;
 }
