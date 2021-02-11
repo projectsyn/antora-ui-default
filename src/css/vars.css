@@ -16,10 +16,16 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
-  /* VSHN Colors */
-  --color-vshn-admonition-background: #d6d6d6;
-  --color-syn-orange: #f49800;
-  --color-syn-blue: #145887;
+
+  /* old palette 2019-2020 */
+  --color-old-syn-orange: #f49800;
+  --color-old-syn-blue: #145887;
+
+  /* new palette February 2021 */
+  --color-syn-purple: #1a1e54;
+  --color-syn-red: #ab3643;
+  --color-syn-yellow: #ffbf00;
+  --color-syn-turquoise: #a1e0e9;
 
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
@@ -28,26 +34,27 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
-  --body-font-family: "Ubuntu", sans-serif;
-  --body-font-weight-bold: 500;
+  --body-font-family: "Montserrat", sans-serif;
+  --body-font-weight-bold: 700;
   --monospace-font-family: "Ubuntu Mono", monospace;
-  --monospace-font-weight-bold: 500;
+  --monospace-font-weight-bold: 700;
   /* base */
   --body-background: var(--color-white);
   --panel-background: var(--color-smoke-30);
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
   /* navbar */
-  --navbar-background: var(--color-syn-blue);
+  --navbar-background: var(--color-syn-purple);
   --navbar-font-color: var(--color-white);
-  --navbar_hover-background: var(--color-syn-orange);
-  --navbar-button-background: var(--color-syn-orange);
+  --navbar_hover-background: var(--color-syn-yellow);
+  --navbar-button-background: var(--color-syn-yellow);
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: var(--body-font-color);
   --navbar-menu-border-color: var(--panel-border-color);
-  --navbar-menu-background: var(--color-syn-blue);
+  --navbar-menu-background: var(--color-syn-purple);
   --navbar-menu-font-color: var(--color-white);
-  --navbar-menu_hover-background: var(--color-syn-orange);
+  --navbar-menu_hover-background: var(--color-syn-yellow);
+  --navbar-menu_hover-font-color: var(--color-syn-purple);
   /* nav */
   --nav-background: var(--panel-background);
   --nav-border-color: var(--color-gray-10);
@@ -69,15 +76,15 @@
   --toc-border-color: var(--panel-border-color);
   --toc-line-height: 1.2;
   /* admonitions */
-  --caution-color: #a0439c;
+  --caution-color: var(--color-syn-red);
   --caution-on-color: var(--color-white);
-  --important-color: #d32f2f;
+  --important-color: var(--color-syn-red);
   --important-on-color: var(--color-white);
-  --note-color: #217ee7;
+  --note-color: var(--color-syn-purple);
   --note-on-color: var(--color-white);
-  --tip-color: #41af46;
+  --tip-color: var(--color-syn-purple);
   --tip-on-color: var(--color-white);
-  --warning-color: #e18114;
+  --warning-color: var(--color-syn-yellow);
   --warning-on-color: var(--color-white);
   /* doc */
   --doc-font-color: var(--color-jet-50);
@@ -90,13 +97,13 @@
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
-  --link-font-color: #1565c0;
-  --link_hover-font-color: #104d92;
+  --link-font-color: var(--color-syn-purple);
+  --link_hover-font-color: var(--color-syn-red);
   --link_unresolved-font-color: var(--important-color);
   --abstract-background: var(--color-smoke-70);
   --abstract-font-color: var(--color-jet-20);
   --abstract-border-color: var(--panel-border-color);
-  --admonition-background: var(--color-vshn-admonition-background);
+  --admonition-background: var(--color-syn-turquoise);
   --admonition-label-font-weight: var(--body-font-weight-bold);
   --caption-font-color: var(--color-gray-70);
   --caption-font-weight: var(--body-font-weight-bold);
@@ -104,7 +111,7 @@
   --code-font-color: var(--body-font-color);
   --example-background: var(--color-white);
   --example-border-color: var(--color-gray-70);
-  --kbd-background: var(--panel-background);
+  --kbd-background: var(--color-syn-turquoise);
   --kbd-border-color: var(--color-gray-10);
   --pre-background: var(--panel-background);
   --pre-border-color: var(--panel-border-color);

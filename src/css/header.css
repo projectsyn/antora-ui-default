@@ -41,7 +41,7 @@ body {
   .navbar-end > a.navbar-item:hover,
   .navbar-end .navbar-link:hover {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--navbar-menu_hover-font-color);
   }
 
   .navbar-end .navbar-link::after {
@@ -50,7 +50,7 @@ body {
 
   .navbar-item.has-dropdown:hover .navbar-link {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--navbar-menu_hover-font-color);
   }
 }
 
@@ -178,6 +178,7 @@ body {
   .navbar-menu a.navbar-item:hover,
   .navbar-menu .navbar-link:hover {
     background-color: var(--navbar-menu_hover-background);
+    color: var(--navbar-menu_hover-font-color);
   }
 }
 
@@ -263,6 +264,7 @@ body {
 
   .navbar-dropdown a.navbar-item:hover {
     background-color: var(--navbar-menu_hover-background);
+    color: var(--navbar-menu_hover-font-color);
   }
 }
 

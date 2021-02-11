@@ -253,6 +253,10 @@
   width: 100%;
 }
 
+.doc .admonitionblock td.content a {
+  color: var(--color-syn-red);
+}
+
 .doc .admonitionblock .icon {
   position: absolute;
   top: 0;
