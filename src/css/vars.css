@@ -17,6 +17,14 @@
   --color-jet-80: #191919;
   --color-black: #000;
 
+  /* Project Syn Colors */
+  --syn-purple: #1A1E54;
+  --syn-red: #AB3643;
+  --syn-yellow: #FFBF00;
+  --syn-light-blue: #A1E0E9;
+  --syn-link-color: var(--syn-red);
+  --syn-link-hover-color: var(--syn-light-blue);
+
   /* VSHN Colors */
   --vshn-rich-black: #000d1a;
   --vshn-amber: #ffbf00;
@@ -27,16 +35,8 @@
   --vshn-ghost-white: #E9EBF2;
   --vshn-cultured: #F6F7F9;
   --vshn-logo-blue: #4081cb;
-  --vshn-link-color: var(--vshn-logo-blue);
-  --vshn-link-hover-color: var(--vshn-capri);
-
-  /* Project Syn Colors */
-  --syn-purple: #1A1E54;
-  --syn-red: #AB3643;
-  --syn-yellow: #FFBF00;
-  --syn-light-blue: #A1E0E9;
-  --syn-link-color: var(--syn-red);
-  --syn-link-hover-color: var(--syn-light-blue);
+  --vshn-link-color: var(--syn-link-color);
+  --vshn-link-hover-color: var(--syn-link-hover-color);
 
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */

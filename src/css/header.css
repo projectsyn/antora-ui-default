@@ -150,8 +150,8 @@ body {
   margin: 0px 10px 0px 0px;
 }
 
-.vshn_unified_logo {
-  background: transparent url(../img/vshn_unified_logo.svg) no-repeat center;
+.vshn-unified-logo {
+  background: transparent url(../img/vshn-unified-logo.svg) no-repeat center;
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -198,7 +198,7 @@ body {
 
   .navbar-dropdown a.navbar-item:hover {
     background: var(--navbar-menu_hover-background);
-    color: var(--vshn-rich-black);
+    color: var(--syn-purple);
   }
 }
 
@@ -261,7 +261,13 @@ body {
   .navbar-end .navbar-link:hover,
   .navbar-end .navbar-item.has-dropdown:hover .navbar-link {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--syn-purple);
+  }
+
+  /* .navbar-end .navbar-link:hover .vshn-unified-logo, */
+  .navbar-end .navbar-item.has-dropdown:hover > .vshn-unified-logo,
+  .navbar-end .navbar-item.has-dropdown .navbar-link:hover > .vshn-unified-logo {
+    filter: brightness(0) saturate(100%) invert(17%) sepia(7%) saturate(5607%) hue-rotate(199deg) brightness(90%) contrast(109%);
   }
 
   .navbar-end .navbar-link::after {
