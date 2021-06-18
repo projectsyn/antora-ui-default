@@ -265,7 +265,7 @@ body {
   }
 
   /* .navbar-end .navbar-link:hover .vshn-unified-logo, */
-  .navbar-end .navbar-item.has-dropdown:hover > .vshn-unified-logo,
+  .navbar-end .navbar-item.has-dropdown:hover .navbar-link > .vshn-unified-logo,
   .navbar-end .navbar-item.has-dropdown .navbar-link:hover > .vshn-unified-logo {
     filter: brightness(0) saturate(100%) invert(17%) sepia(7%) saturate(5607%) hue-rotate(199deg) brightness(90%) contrast(109%);
   }
