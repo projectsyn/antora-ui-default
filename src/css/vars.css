@@ -16,6 +16,7 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
+
   /* VSHN Colors */
   --vshn-rich-black: #000d1a;
   --vshn-amber: #ffbf00;
@@ -28,6 +29,14 @@
   --vshn-logo-blue: #4081cb;
   --vshn-link-color: var(--vshn-logo-blue);
   --vshn-link-hover-color: var(--vshn-capri);
+
+  /* Project Syn Colors */
+  --syn-purple: #1A1E54;
+  --syn-red: #AB3643;
+  --syn-yellow: #FFBF00;
+  --syn-light-blue: #A1E0E9;
+  --syn-link-color: var(--syn-red);
+  --syn-link-hover-color: var(--syn-light-blue);
 
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
@@ -46,16 +55,16 @@
   --panel-border-color: var(--vshn-silver-sand);
   --scrollbar-thumb-color: var(--vshn-silver-sand);
   /* navbar */
-  --navbar-background: var(--vshn-cultured);
-  --navbar-font-color: var(--vshn-rich-black);
-  --navbar_hover-background: var(--vshn-capri);
+  --navbar-background: var(--syn-purple);
+  --navbar-font-color: var(--syn-light-blue);
+  --navbar_hover-background: var(--syn-yellow);
   --navbar-button-background: var(--color-white);
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: var(--body-font-color);
   --navbar-menu-border-color: var(--panel-border-color);
-  --navbar-menu-background: var(--vshn-cultured);
-  --navbar-menu-font-color: var(--vshn-rich-black);
-  --navbar-menu_hover-background: var(--vshn-capri);
+  --navbar-menu-background: var(--syn-purple);
+  --navbar-menu-font-color: var(--syn-light-blue);
+  --navbar-menu_hover-background: var(--syn-yellow);
   /* nav */
   --nav-background: var(--panel-background);
   --nav-border-color: var(--color-gray-10);
