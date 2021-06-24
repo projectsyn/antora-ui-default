@@ -147,7 +147,7 @@ body {
   background-size: contain;
   width: 60px;
   height: 40px;
-  margin: 0px 10px 0px 0px;
+  margin: 0 10px 0 0;
 }
 
 .vshn-unified-logo {
@@ -155,7 +155,7 @@ body {
   background-size: contain;
   width: 40px;
   height: 40px;
-  margin: 0px 10px 0px 0px;
+  margin: 0 10px 0 0;
 }
 
 /* Project Syn Logo */
@@ -165,7 +165,7 @@ body {
   background-size: contain;
   width: 40px;
   height: 40px;
-  margin: 0px 10px 0px 0px;
+  margin: 0 10px 0 0;
 }
 
 @media screen and (max-width: 1023.5px) {
