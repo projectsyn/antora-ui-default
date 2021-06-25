@@ -89,7 +89,7 @@
   /* Requires an `!important` because these tables have the `stretch` class,
      which specifies a width of 100% on the same element, and this one takes
      precedence, for some reason. */
-  width: fit-content!important;
+  width: fit-content !important;
 }
 
 .meta-info-table td {
